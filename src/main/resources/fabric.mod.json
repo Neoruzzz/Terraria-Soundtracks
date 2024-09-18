@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "terraria-soundtracks",
+  "version": "${version}",
+  "name": "Terraria-Soundtracks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/terraria-soundtracks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ru.neoruzzz.terrariasoundtracks.client.ModClient"
+    ],
+    "main": [
+      "ru.neoruzzz.terrariasoundtracks.Mod"
+    ]
+  },
+  "mixins": [
+    "terraria-soundtracks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
