@@ -10,11 +10,8 @@
   "icon": "assets/terraria-soundtracks/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "ru.neoruzzz.terrariasoundtracks.client.ModClient"
-    ],
     "main": [
-      "ru.neoruzzz.terrariasoundtracks.Mod"
+      "ru.neoruzzz.terrariasoundtracks.TerrariaSoundtracks"
     ]
   },
   "mixins": [

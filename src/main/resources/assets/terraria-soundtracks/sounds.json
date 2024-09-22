@@ -1,0 +1,12 @@
+{
+  "title_screen": {
+    "sounds": [
+      "terraria-soundtracks:title_screen"
+    ]
+  },
+  "overworld_day": {
+    "sounds": [
+      "terraria-soundtracks:overworld_day"
+    ]
+  }
+}
